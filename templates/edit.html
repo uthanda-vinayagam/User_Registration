@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Edit User</title>
+  <style>
+    body { background-color: #0c0c0c; color: white; font-family: sans-serif; }
+    .form { max-width: 400px; margin: 50px auto; background: #1a1a1a; padding: 30px; border-radius: 10px; }
+    label, input { display: block; width: 100%; margin-bottom: 15px; }
+    input { padding: 10px; border-radius: 5px; border: none; }
+    .btn { background: gold; padding: 10px; font-weight: bold; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div class="form">
+    <h2>Edit User</h2>
+    <form method="POST">
+      <label>Name:</label>
+      <input type="text" name="name" value="{{ user[1] }}" required>
+      <label>Email:</label>
+      <input type="email" name="email" value="{{ user[2] }}" required>
+      <label>Password:</label>
+      <input type="password" name="password" value="{{ user[3] }}" required>
+      <input class="btn" type="submit" value="Update">
+    </form>
+  </div>
+</body>
+</html>
 
