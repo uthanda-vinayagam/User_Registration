@@ -1,1 +1,17 @@
+.footer-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-buttons a {
+    color: #FFD700; /* Gold color */
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.footer-buttons a:hover {
+    text-decoration: underline;
+}
 
